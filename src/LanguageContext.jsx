@@ -22,9 +22,7 @@ export default function LanguageContextProvider({ children }) {
   };
 
   return (
-    <LanguageContext.Provider
-      value={{ language, setLanguage, toggleLanguage }}
-    >
+    <LanguageContext.Provider value={{ language, setLanguage, toggleLanguage }}>
       {children}
     </LanguageContext.Provider>
   );
